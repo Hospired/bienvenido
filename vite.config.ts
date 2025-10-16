@@ -1,14 +1,8 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
-import path from "path"
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// Cambia el valor de base por el nombre de tu repositorio de GitHub Pages
 export default defineConfig({
   plugins: [react()],
-  base: "/bienvenido/",
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./"),
-    },
-  },
-})
+  base: "/bienvenido/", // <--- Pon aquí el nombre EXACTO de tu repo
+});

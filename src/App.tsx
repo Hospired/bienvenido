@@ -1,11 +1,11 @@
-import { Bienvenido } from "./components/Bienvenido"
+import { Bienvenido } from "./components/Bienvenido";
 
 function App() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Bienvenido />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
